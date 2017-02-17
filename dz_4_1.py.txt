@@ -1,0 +1,27 @@
+print('Hello!')
+
+while True:
+
+  print('Vvedite celoe chislo')
+
+  x=input()
+
+  if x.isdigit()==True or (x[1:].isdigit()==True and x[0]=='-'):
+
+    break
+
+  else:
+
+    print('EROR')
+
+if int(x)>0:
+
+  print('Chislo polojitelnoe +')
+
+elif int(x)==0:
+
+  print('Chislo imeet znacheii 0')
+
+else:
+
+  print('Chislo otricatelnoe -')
