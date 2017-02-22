@@ -1,0 +1,17 @@
+#l=['red', 'blu', 'abckript', 'abcred']
+#f1 = open("domaska.txt",'w')
+#for i in l:
+#    if i[:2]=='abc':
+#        print(i)
+#	f1.write(i)
+#f1.close()
+
+
+l=['red', 'blu', 'abckript', 'abcred']
+f1 = open("domaska.txt",'w')
+for i in l:
+    if i[:2]!='abc':
+        continue
+    print(i)
+    f1.write(i)
+f1.close()

@@ -1,0 +1,9 @@
+f= open("test5.txt", 'r')
+f1 = open("test5_1.txt", 'w')
+i = 1
+for j in f:
+    print(str(i) + " " + j.rstrip(), file=f1)
+    i +=1
+f.close()
+f1.close()
+

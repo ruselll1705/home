@@ -1,0 +1,9 @@
+l=['red', 'abc', 'abc', 'abc', 'blu','fred','abc','tr']
+
+for i in l[::-1]:
+
+    if i == 'abc':
+
+      l.remove(i)
+
+print(l)

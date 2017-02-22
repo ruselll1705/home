@@ -1,0 +1,21 @@
+l=[]
+
+while True:
+
+  s=input()
+
+  if s.find(' ') != -1:
+
+    continue
+
+  else:
+
+    if l.count(s) != 0:
+
+      print('I know that word')
+
+    else:
+
+      print("Thank you")
+
+      l += [s]
